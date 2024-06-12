@@ -1,0 +1,4 @@
+[core]
+    remote = spam
+['remote "spam"']
+    url = /home/pawel/spamRepo
