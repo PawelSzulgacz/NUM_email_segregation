@@ -1,0 +1,11 @@
+stages:
+  prepare:
+    cmd: python src/prepare.py spam_and_ham.csv
+    deps:
+    - data/spam_and_ham.csv
+    - src/prepare.py
+    params:
+    - prepare.seed
+    - prepare.split
+    outs:
+    - data/prepared
