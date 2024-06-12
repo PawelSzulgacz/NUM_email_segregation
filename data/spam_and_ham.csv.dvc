@@ -1,0 +1,6 @@
+outs:
+- md5: 7a9de76f2cb0396f01969bfdb2a8c1cb
+  size: 16375705
+  isexec: true
+  hash: md5
+  path: spam_and_ham.csv
